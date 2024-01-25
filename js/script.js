@@ -19,9 +19,4 @@ document.getElementById('color').innerHTML = `Infine, il tuo colore preferito è
 // genero una password in base alle risposte date in precedenza
 document.writeln("Questa sarà la tua password generata automaticamente:")
 
-document.writeln();
-
-document.writeln(document.getElementById('surname'));
-
-document.writeln(document.getElementById('color'));
-document.writeln(23)
+document.writeln(`${fullname}` + `${surname}` + `${color}` + 23);
