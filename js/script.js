@@ -1,14 +1,27 @@
 // inseriso nome
-const fullname = prompt('Come ti chiami?');
+let fullname = prompt('Come ti chiami?');
 
-document.getElementById('fullname').innerText = `Ciao, il tuo nome è ${fullname}!`;
+document.getElementById('fullname').innerHTML = `Ciao, il tuo nome è ${fullname}!`;
+
 
 // inserisco cognome
-const surname = prompt("Qual'è il tuo cognome?");
+let surname = prompt("Qual'è il tuo cognome?");
 
-document.getElementById('surname').innerText = `Mentre, il tuo cognome è ${surname}!`;
+document.getElementById('surname').innerHTML = `Mentre, il tuo cognome è ${surname}!`;
+
 
 // chiedo il colore preferito
-const color = prompt("Qual'è il tuo colore preferito?");
+let color = prompt("Qual'è il tuo colore preferito?");
 
-document.getElementById('color').innerText = `Infine, il tuo colore preferito è il ${color}!`;
+document.getElementById('color').innerHTML = `Infine, il tuo colore preferito è il ${color}!`;
+
+
+// genero una password in base alle risposte date in precedenza
+document.writeln("Questa sarà la tua password generata automaticamente:")
+
+document.writeln();
+
+document.writeln(document.getElementById('surname'));
+
+document.writeln(document.getElementById('color'));
+document.writeln(23)
